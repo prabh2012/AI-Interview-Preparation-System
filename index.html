@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interview Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="studio-shell">
+
+    <span class="eyebrow"><span class="dot"></span> AI Voice Interview</span>
+
+    <div class="panel">
+
+        <div class="title">Interview Studio</div>
+        <p class="subtitle">Pick a role, speak your answers, get scored feedback after every question.</p>
+
+        {% if error %}
+        <div class="status-line">{{ error }}</div>
+        {% endif %}
+
+        <form action="/start" method="POST" id="role-form">
+
+            <label class="field-label" for="role">Select your role</label>
+            <select name="role" id="role" required>
+                <option value="" disabled selected>Choose a role&hellip;</option>
+                {% for role in roles %}
+                    <option value="{{ role }}">{{ role }}</option>
+                {% endfor %}
+            </select>
+
+            <div class="fade-target" id="start-wrap" style="margin-top: 16px;">
+                <button type="submit" class="btn-primary">Start Interview</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="footer-note">5 random questions &middot; spoken aloud &middot; scored by AI</div>
+
+</div>
+
+<script>
+    const roleSelect = document.getElementById('role');
+    const startWrap = document.getElementById('start-wrap');
+
+    roleSelect.addEventListener('change', () => {
+        if (roleSelect.value) {
+            startWrap.classList.add('visible');
+        } else {
+            startWrap.classList.remove('visible');
+        }
+    });
+</script>
+
+</body>
+</html>
