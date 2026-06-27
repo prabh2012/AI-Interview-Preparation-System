@@ -1,0 +1,104 @@
+role,question,ideal_answer,keywords
+Python Developer,What is Python?,Python is a high-level interpreted programming language.,python interpreted programming
+Python Developer,What is OOP?,OOP is a programming paradigm based on classes and objects.,class object inheritance encapsulation
+Python Developer,What is inheritance?,Inheritance allows one class to inherit properties from another class.,inheritance parent child class
+Python Developer,What is encapsulation?,Encapsulation hides data and methods inside a class.,encapsulation data hiding class
+Python Developer,What is polymorphism?,Polymorphism allows one interface to have multiple implementations.,polymorphism method overriding
+Python Developer,What is abstraction?,Abstraction hides implementation details and shows essential features.,abstraction interface
+Python Developer,What is a list?,A list is an ordered and mutable collection.,list mutable ordered
+Python Developer,What is a tuple?,A tuple is an ordered and immutable collection.,tuple immutable ordered
+Python Developer,What is a dictionary?,Dictionary stores key-value pairs.,dictionary key value
+Python Developer,What is a set?,A set is an unordered collection of unique elements.,set unique elements
+Python Developer,What is a function?,A function is a reusable block of code.,function reusable code
+Python Developer,What is lambda function?,Lambda is an anonymous function in Python.,lambda anonymous function
+Python Developer,What is exception handling?,Exception handling manages runtime errors using try and except.,try except error
+Python Developer,What is a module?,A module is a Python file containing code and functions.,module import file
+Python Developer,What is a package?,A package is a collection of Python modules.,package modules
+Python Developer,What is PEP 8?,PEP 8 is the Python coding style guide.,pep8 coding style
+Python Developer,What is list comprehension?,List comprehension creates lists using a concise syntax.,list comprehension
+Python Developer,What is a generator?,Generators produce values one at a time using yield.,generator yield iterator
+Python Developer,What is an iterator?,An iterator allows traversal of elements one by one.,iterator next iteration
+Python Developer,What is Flask?,Flask is a lightweight Python web framework.,flask web framework
+Python Developer,What is Django?,Django is a high-level Python web framework.,django framework
+Python Developer,What is NumPy?,NumPy provides numerical computing functions.,numpy arrays numerical
+Python Developer,What is Pandas?,Pandas is used for data manipulation and analysis.,pandas dataframe analysis
+Python Developer,What is virtual environment?,Virtual environments isolate project dependencies.,venv environment packages
+Python Developer,What is pip?,Pip is Python's package manager.,pip package install
+,,,
+Data Analyst,What is data analysis?,Data analysis involves inspecting and interpreting data.,analysis data insights
+Data Analyst,What is Pandas?,Pandas is a data analysis library in Python.,pandas dataframe
+Data Analyst,What is NumPy?,NumPy is used for numerical operations.,numpy arrays
+Data Analyst,What is data cleaning?,Data cleaning removes errors and inconsistencies.,cleaning missing duplicates
+Data Analyst,What is EDA?,Exploratory Data Analysis discovers patterns in data.,eda visualization patterns
+Data Analyst,What is Power BI?,Power BI is a data visualization tool.,dashboard visualization reports
+Data Analyst,What is Tableau?,Tableau is a business intelligence tool.,tableau visualization
+Data Analyst,What is a dashboard?,Dashboard visually represents important data.,dashboard charts kpi
+Data Analyst,What is a KPI?,KPI measures business performance.,kpi performance metric
+Data Analyst,What is missing data?,Missing data refers to unavailable values.,missing null values
+Data Analyst,What is outlier?,Outliers are unusual observations in data.,outlier anomaly
+Data Analyst,What is correlation?,Correlation measures relationship between variables.,correlation relationship
+Data Analyst,What is data visualization?,Visualization represents data graphically.,charts graphs visualization
+Data Analyst,What is Excel?,Excel is a spreadsheet tool for data analysis.,excel spreadsheet
+Data Analyst,What is SQL?,SQL is used to manage databases.,sql database query
+Data Analyst,What is a database?,A database stores structured information.,database storage
+Data Analyst,What is a primary key?,Primary key uniquely identifies records.,primary unique key
+Data Analyst,What is normalization?,Normalization reduces redundancy in databases.,normalization redundancy
+Data Analyst,What is ETL?,ETL means Extract Transform Load.,etl extract transform load
+Data Analyst,What is data warehouse?,A data warehouse stores analytical data.,warehouse analytics
+Data Analyst,What is business intelligence?,BI converts data into insights.,business intelligence insights
+Data Analyst,What is histogram?,Histogram shows frequency distribution.,histogram distribution
+Data Analyst,What is bar chart?,Bar chart compares categories.,bar chart categories
+Data Analyst,What is pie chart?,Pie chart shows proportions.,pie proportion
+Data Analyst,What is data-driven decision making?,Decisions based on data and analysis.,data decision analysis
+,,,
+Machine Learning,What is machine learning?,Machine learning enables systems to learn from data.,ml data learning
+Machine Learning,What is supervised learning?,Supervised learning uses labeled data.,supervised labeled data
+Machine Learning,What is unsupervised learning?,Unsupervised learning finds hidden patterns.,unsupervised clustering
+Machine Learning,What is reinforcement learning?,Learning through rewards and penalties.,reinforcement rewards
+Machine Learning,What is overfitting?,Model performs well on training but poorly on testing.,overfitting training testing
+Machine Learning,What is underfitting?,Model fails to learn patterns properly.,underfitting model
+Machine Learning,What is a dataset?,A dataset is a collection of data.,dataset data
+Machine Learning,What is training data?,Training data teaches the model.,training model
+Machine Learning,What is testing data?,Testing data evaluates model performance.,testing evaluation
+Machine Learning,What is accuracy?,Accuracy measures correct predictions.,accuracy predictions
+Machine Learning,What is precision?,Precision measures positive prediction quality.,precision positives
+Machine Learning,What is recall?,Recall measures correctly identified positives.,recall sensitivity
+Machine Learning,What is F1 score?,F1 balances precision and recall.,f1 precision recall
+Machine Learning,What is regression?,Regression predicts continuous values.,regression prediction
+Machine Learning,What is classification?,Classification predicts categories.,classification labels
+Machine Learning,What is clustering?,Clustering groups similar data.,clustering groups
+Machine Learning,What is cross-validation?,Cross-validation evaluates model performance.,cross validation
+Machine Learning,What is feature engineering?,Feature engineering creates useful features.,features engineering
+Machine Learning,What is a model?,A model learns patterns from data.,model learning
+Machine Learning,What is linear regression?,Linear regression predicts continuous output.,linear regression
+Machine Learning,What is decision tree?,Decision tree uses branching decisions.,decision tree
+Machine Learning,What is random forest?,Random forest combines multiple trees.,random forest
+Machine Learning,What is KNN?,KNN predicts using nearest neighbors.,knn neighbors
+Machine Learning,What is confusion matrix?,Confusion matrix evaluates classification.,confusion matrix
+Machine Learning,What is AI?,AI enables machines to simulate intelligence.,ai intelligence
+,,,
+HR,Tell me about yourself.,Introduce your education skills projects and goals.,education skills projects goals
+HR,Why should we hire you?,Explain your strengths and abilities.,strengths skills
+HR,What are your strengths?,Discuss technical and personal strengths.,strengths communication
+HR,What are your weaknesses?,Mention a weakness and improvement plan.,weakness improvement
+HR,Why do you want this job?,Explain your interest and goals.,career interest
+HR,Where do you see yourself in five years?,Discuss career growth objectives.,career goals
+HR,Describe a challenge you faced.,Explain a problem and solution.,challenge solution
+HR,Why did you choose computer science?,Discuss interest in technology.,technology interest
+HR,What motivates you?,Explain factors that inspire you.,motivation learning
+HR,How do you handle pressure?,Discuss time management and calmness.,pressure management
+HR,What is teamwork?,Working together to achieve goals.,team collaboration
+HR,What is leadership?,Ability to guide and motivate people.,leadership motivation
+HR,How do you manage time?,Prioritize tasks and schedules.,time management
+HR,Describe your final year project.,Explain objective technologies and outcome.,project technologies
+HR,What are your career goals?,Discuss short and long term goals.,career goals
+HR,How do you learn new technologies?,Use courses projects and practice.,learning practice
+HR,What is your biggest achievement?,Describe a significant accomplishment.,achievement success
+HR,Are you willing to relocate?,Express flexibility and adaptability.,relocation adaptability
+HR,Why should we select you?,Highlight skills and dedication.,skills dedication
+HR,Do you have any questions for us?,Ask about role growth and team.,company growth team
+HR,How do you handle failure?,Learn from mistakes and improve.,failure learning
+HR,What are your hobbies?,Discuss productive hobbies and interests.,hobbies interests
+HR,What makes you unique?,Explain unique strengths and qualities.,unique strengths
+HR,How do you resolve conflicts?,Use communication and understanding.,conflict communication
+HR,Why should a company trust you?,Discuss responsibility and honesty.,trust responsibility
